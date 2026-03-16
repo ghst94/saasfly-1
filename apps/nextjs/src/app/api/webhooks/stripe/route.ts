@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import { NextResponse, type NextRequest } from "next/server";
 
 import { handleEvent, stripe, type Stripe } from "@saasfly/stripe";

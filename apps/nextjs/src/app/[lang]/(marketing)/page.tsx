@@ -2,7 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { getDictionary } from "~/lib/get-dictionary";
 
-import { CodeCopy } from "~/components/code-copy";
 import { Comments } from "~/components/comments";
 import { FeaturesGrid } from "~/components/features-grid";
 import { RightsideMarketing } from "~/components/rightside-marketing";
@@ -19,23 +18,23 @@ import {VideoScroll} from "~/components/video-scroll";
 const people = [
   {
     id: 1,
-    name: "Sefari Team",
-    designation: "Cannabis Retail Experts",
-    image: "https://ui-avatars.com/api/?name=Sefari&background=22c55e&color=fff&size=128",
+    name: "Sarah",
+    designation: "Business Owner",
+    image: "https://avatars.githubusercontent.com/u/16015833",
     link: "https://console.sefari.io",
   },
   {
     id: 2,
-    name: "Support",
-    designation: "24/7 Operator Support",
-    image: "https://ui-avatars.com/api/?name=Support&background=16a34a&color=fff&size=128",
+    name: "James",
+    designation: "Operations Manager",
+    image: "https://avatars.githubusercontent.com/u/20166026",
     link: "https://console.sefari.io",
   },
   {
     id: 3,
-    name: "Compliance",
-    designation: "Regulatory Specialists",
-    image: "https://ui-avatars.com/api/?name=Compliance&background=15803d&color=fff&size=128",
+    name: "Priya",
+    designation: "Store Director",
+    image: "https://avatars.githubusercontent.com/u/59442788",
   },
 ];
 
@@ -58,14 +57,14 @@ export default async function IndexPage({
                 <div className="mt-20">
                   <div
                     className="mb-6 max-w-4xl text-left text-4xl font-semibold dark:text-zinc-100 md:text-5xl xl:text-5xl md:leading-[4rem] xl:leading-[4rem]">
-                    {dict.marketing.title || "Run your dispensary smarter with "}
-                    <ColourfulText text="Sefari"/>
+                    {dict.marketing.title || "Operations simplified. Customers delighted. With "}
+                    <ColourfulText text="SEFARI"/>
                   </div>
                 </div>
 
                 <div className="mt-4">
                   <span className="text-neutral-500 dark:text-neutral-400 sm:text-lg">
-                    {dict.marketing.sub_title || "Your complete All-in-One solution for building SaaS services."}
+                    {dict.marketing.sub_title || "The modular operating system for modern commerce. Plan, dispatch, track, and scale — all from one console."}
                   </span>
                 </div>
 
@@ -79,7 +78,12 @@ export default async function IndexPage({
                     </Button>
                   </Link>
 
-                  <CodeCopy/>
+                  <Link href="/#features">
+                    <Button variant="outline" className="rounded-full text-lg px-6 h-12 font-medium">
+                      {dict.marketing.view_on_github}
+                      <Icons.ArrowRight className="h-5 w-5"/>
+                    </Button>
+                  </Link>
                 </div>
 
                 <div className="flex xl:flex-row flex-col items-center justify-start mt-4 w-full">
@@ -88,13 +92,13 @@ export default async function IndexPage({
                   </div>
                   <div className="flex flex-col items-center justify-start ml-8">
                     <div className="w-[340px]">
-                      <span className="font-semibold">500+ </span>
+                      <span className="font-semibold">5,000+ </span>
                       <span className="text-neutral-500 dark:text-neutral-400">{dict.marketing.contributors.contributors_desc}</span>
                     </div>
                     <div className="w-[340px]">
                       <span
                         className="text-neutral-500 dark:text-neutral-400">{dict.marketing.contributors.developers_first}</span>
-                      <ColourfulText text="10,000"/>
+                      <ColourfulText text="250M+"/>
                       <span
                         className="text-neutral-500 dark:text-neutral-400">{dict.marketing.contributors.developers_second}</span>
                     </div>
@@ -112,7 +116,7 @@ export default async function IndexPage({
         </div>
       </section>
 
-      <section className="container mt-8 md:mt-[-180px] xl:mt-[-180px]">
+      <section id="features" className="container mt-8 md:mt-[-180px] xl:mt-[-180px]">
         <FeaturesGrid dict={dict.marketing.features_grid}/>
       </section>
 

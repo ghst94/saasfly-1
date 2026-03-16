@@ -2,7 +2,7 @@
   "price": {
     "title": "Simple, transparent pricing",
     "pricing": "Pricing",
-    "slogan": "Scale with your dispensary!",
+    "slogan": "Scale from first mile to last mile!",
     "monthly_bill": "Monthly Billing",
     "annual_bill": "Annual Billing",
     "annual_info": "will be charged when annual",
@@ -19,17 +19,17 @@
     "": ""
   },
   "marketing": {
-    "introducing": "Introducing Sefari Console",
-    "title": "Run your dispensary smarter with ",
-    "sub_title": "The all-in-one cannabis retail operating system. Manage inventory, compliance, orders, and customer experience — all from one powerful console.",
+    "introducing": "Introducing SEFARI Console",
+    "title": "Operations simplified. Customers delighted. With ",
+    "sub_title": "The modular operating system for modern commerce. Plan, dispatch, track, and scale your operations — from first mile to last mile — all from one powerful console.",
     "get_started": "Open Console",
-    "view_on_github": "Learn More",
+    "view_on_github": "See How It Works",
     "explore_product": "Explore Features",
     "features": "Features",
-    "sub_features": "Built for cannabis retail: compliance-ready, fast, and deeply integrated.",
-    "k8s_features": "Real-time inventory & POS",
-    "devops_features": "Automated compliance reporting",
-    "price_features": "Affordable plans for every dispensary size.",
+    "sub_features": "End-to-end operations management: route optimization, real-time tracking, and seamless integrations.",
+    "k8s_features": "AI-powered dispatch & route optimization",
+    "devops_features": "Real-time fleet tracking & analytics",
+    "price_features": "Flexible plans that scale with your operations.",
     "main_nav_features": "Features",
     "main_nav_pricing": "Pricing",
     "main_nav_products": "Products",
@@ -39,41 +39,41 @@
     "signup": "Sign up",
     "": "",
     "contributors": {
-      "contributors_desc": "dispensaries trust Sefari",
-      "developers_first": "Powering more than ",
-      "developers_second": " cannabis retailers"
+      "contributors_desc": "businesses trust SEFARI",
+      "developers_first": "Powering over ",
+      "developers_second": " operations worldwide"
     },
     "right_side": {
-      "deploy_on_vercel_title": "Instant Setup",
-      "deploy_on_vercel_desc": "Get your dispensary live in minutes, not months.",
-      "ship_on_cloudflare_title": "Always Online",
-      "ship_on_cloudflare_desc": "Enterprise-grade uptime so your store never goes dark.",
-      "showcase_title": "Built for Compliance",
-      "showcase_desc": "State-by-state compliance tracking, automated reports, and audit-ready records — all built in."
+      "deploy_on_vercel_title": "Get Live in Minutes",
+      "deploy_on_vercel_desc": "Onboard your team, import your routes, and start dispatching the same day — no lengthy setup required.",
+      "ship_on_cloudflare_title": "Delight Every Customer",
+      "ship_on_cloudflare_desc": "Automatic SMS notifications, accurate ETAs, real-time driver tracking, and proof-of-delivery — built in.",
+      "showcase_title": "Integrate Everything",
+      "showcase_desc": "Connect your existing tools — OMS, WMS, ecommerce platforms, and more — via webhooks, sockets, and our developer-friendly REST API."
     },
     "features_grid": {
-      "monorepo_title": "Unified Dashboard",
-      "monorepo_desc": "Manage every location, register, and employee from a single, powerful console.",
-      "i18n_title": "Multi-Location",
-      "i18n_desc": "Scale effortlessly across multiple storefronts with centralized control and location-level customization.",
-      "payments_title": "Integrated Payments",
-      "payments_desc": "Accept cash, debit, and compliant cashless payments with built-in reconciliation and reporting.",
-      "nextauth_title": "Secure & Compliant",
-      "nextauth_desc": "Role-based access, full audit trails, and state compliance integrations keep you protected and inspection-ready."
+      "monorepo_title": "Unified Operations Dashboard",
+      "monorepo_desc": "Plan, dispatch, and manage your entire operation end-to-end — from a single, real-time dashboard. Track every driver, route, and order at a glance.",
+      "i18n_title": "AI-Powered Dispatch & Routing",
+      "i18n_desc": "Cut delivery costs by up to 45% with intelligent route optimization and AI-based automated dispatch. More deliveries, less fuel, happier customers.",
+      "payments_title": "Real-Time Fleet Tracking",
+      "payments_desc": "Live driver locations, accurate ETAs, and proof-of-delivery capture — all synced in real time. Keep customers informed automatically with SMS and push notifications.",
+      "nextauth_title": "Modular & Extensible",
+      "nextauth_desc": "Install extensions to unlock new capabilities. Connect any platform via our powerful API. Build custom order workflows, dynamic fields, and business logic that fits your operations."
     },
     "sponsor": {
-      "title": "Trusted by cannabis retailers",
-      "donate": "Become a partner"
+      "title": "Trusted by operations teams worldwide",
+      "donate": "Start your free trial"
     },
     "video": {
-      "first_text": "See Sefari in action, then",
-      "second_text1": "launch your console in ",
+      "first_text": "See SEFARI in action, then",
+      "second_text1": "launch your operations in ",
       "second_text2": "",
       "time_text": "minutes"
     },
     "people_comment": {
-      "title": "What Operators Are Saying",
-      "desc": "Don't just take our word for it. Here's what real dispensary operators say about Sefari."
+      "title": "What Our Customers Are Saying",
+      "desc": "Join thousands of operations teams who use SEFARI to simplify their workflows, delight customers, and scale with confidence."
     }
   },
   "login": {
@@ -85,26 +85,26 @@
     "signin_others": "Or continue with",
     "signup": "Sign up",
     "privacy": "only your email and profile picture will be stored.",
-    "signup_github": "Sign Up with Github",
+    "signup_github": "Sign Up with Email",
     "": ""
   },
   "common": {
-    "copyright": "Copyright © ${currentYear} Sefari. All rights reserved.",
+    "copyright": "Copyright © ${currentYear} SEFARI. All rights reserved.",
     "dashboard": {
       "main_nav_documentation": "Documentation",
       "main_nav_support": "Support",
-      "sidebar_nav_clusters": "Locations",
+      "sidebar_nav_clusters": "Operations",
       "sidebar_nav_billing": "Billing",
       "sidebar_nav_settings": "Settings",
-      "title_text": "Manage your locations."
+      "title_text": "Manage your operations."
     },
     "": ""
   },
   "business": {
     "k8s": {
-      "new_cluster": "New Location",
-      "no_cluster_title": "No locations added",
-      "no_cluster_content": "You don&apos;t have any locations yet. Start by adding your first dispensary. ",
+      "new_cluster": "New Operation",
+      "no_cluster_title": "No operations added",
+      "no_cluster_content": "You don&apos;t have any operations yet. Start by setting up your first workflow. ",
       "": ""
     },
     "billing": {
