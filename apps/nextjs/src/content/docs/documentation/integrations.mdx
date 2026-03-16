@@ -1,0 +1,56 @@
+---
+title: Integrations
+description: Connect SEFARI to your existing tools, platforms, and systems.
+---
+
+## Overview
+
+SEFARI is built to integrate with the tools you already use. Whether you're connecting a POS system, ecommerce platform, payment gateway, or custom internal tool — SEFARI's open API and webhook system makes it straightforward.
+
+## REST API
+
+SEFARI provides a fully documented RESTful API for programmatic access to all platform features.
+
+- **Base URL:** `https://api.sefari.io/v1`
+- **Authentication:** Bearer token via API key
+- **Formats:** JSON request/response
+- **Rate limiting:** 1,000 requests/minute on standard plans
+
+```bash
+curl -X GET https://api.sefari.io/v1/orders \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Content-Type: application/json"
+```
+
+## Webhooks
+
+Subscribe to real-time events in your SEFARI account and receive HTTP POST notifications to your endpoint.
+
+**Available events:**
+
+| Event | Description |
+|-------|-------------|
+| `order.created` | A new order has been created |
+| `order.dispatched` | An order has been assigned to a driver |
+| `order.delivered` | An order has been delivered and confirmed |
+| `order.cancelled` | An order has been cancelled |
+| `driver.location_updated` | A driver's GPS position has changed |
+| `inventory.low_stock` | An item has fallen below the reorder threshold |
+
+## WebSocket / Real-Time Events
+
+For applications requiring live updates, SEFARI supports WebSocket connections for streaming real-time data including driver locations, order status changes, and inventory updates.
+
+## Platform Integrations
+
+SEFARI offers out-of-the-box compatibility with popular platforms:
+
+- **Shopify** — Sync orders and inventory automatically
+- **Square** — Connect your POS and payment processing
+- **Stripe** — Subscription billing and payment collection
+- **Resend / SendGrid** — Transactional email for order notifications
+- **Twilio** — SMS delivery notifications for customers
+
+<Callout>
+Need a custom integration? Use the SEFARI REST API and webhook system to build exactly what your operations require.
+</Callout>

@@ -19,21 +19,21 @@ const people = [
   {
     id: 1,
     name: "Sarah",
-    designation: "Business Owner",
+    designation: "Delivery Operations Manager",
     image: "https://avatars.githubusercontent.com/u/16015833",
     link: "https://console.sefari.io",
   },
   {
     id: 2,
     name: "James",
-    designation: "Operations Manager",
+    designation: "Multi-Location Owner",
     image: "https://avatars.githubusercontent.com/u/20166026",
     link: "https://console.sefari.io",
   },
   {
     id: 3,
     name: "Priya",
-    designation: "Store Director",
+    designation: "Fleet Dispatcher",
     image: "https://avatars.githubusercontent.com/u/59442788",
   },
 ];

@@ -3,45 +3,57 @@ import Marquee from "@saasfly/ui/marquee";
 
 const reviews = [
   {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://avatar.vercel.sh/jack",
+    name: "Marcus T.",
+    username: "@marcust_la",
+    body: "Our drivers used to call in constantly with route questions. Since we switched to SEFARI, dispatch basically runs itself. Game changer.",
+    img: "https://avatar.vercel.sh/marcus",
   },
   {
-    name: "Alex",
-    username: "@alex",
-    body: "This tool has revolutionized the way our team works.",
-    img: "https://avatar.vercel.sh/jill",
+    name: "Danielle R.",
+    username: "@danielle_r",
+    body: "Customers stopped calling to ask where their order is. The live tracking link does all the work. Our review scores went up overnight.",
+    img: "https://avatar.vercel.sh/danielle",
   },
   {
-    name: "Shamoki",
-    username: "@shamoki",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/john",
+    name: "Tyler W.",
+    username: "@tylerwatts",
+    body: "We went from managing deliveries on spreadsheets to running 200+ orders a day without breaking a sweat. SEFARI is the real deal.",
+    img: "https://avatar.vercel.sh/tyler",
   },
   {
-    name: "王伟",
-    username: "@wangwei",
-    body: "这款 SaaS 服务简直是办公利器！我的工作效率提高了很多。",
-    img: "https://avatar.vercel.sh/jane",
+    name: "Jasmine C.",
+    username: "@jasminecooks",
+    body: "The proof of delivery photos have saved us so many disputes. Everything is timestamped and geotagged — no more 'I never got it' claims.",
+    img: "https://avatar.vercel.sh/jasmine",
   },
   {
-    name: "김민수",
-    username: "@kios",
-    body: "저는 이 SaaS 서비스에 매우 만족하고 있습니다.",
-    img: "https://avatar.vercel.sh/jenny",
+    name: "Kevin M.",
+    username: "@kevinm_sd",
+    body: "Switching to SEFARI cut our fuel costs by almost 30%. The route optimization actually works — not just marketing fluff.",
+    img: "https://avatar.vercel.sh/kevin",
   },
   {
-    name: "山田太郎",
-    username: "@samtimkun",
-    body: "このSaaSサービスには本当に感謝しています。",
-    img: "https://avatar.vercel.sh/james",
+    name: "Sofia L.",
+    username: "@sofialeon",
+    body: "I manage three locations and used to need three different tools. SEFARI handles everything in one dashboard. Couldn't go back.",
+    img: "https://avatar.vercel.sh/sofia",
+  },
+  {
+    name: "Andre B.",
+    username: "@andreb_norcal",
+    body: "The auto-dispatch is scary good. Orders get picked up faster and my team barely has to touch the system during peak hours.",
+    img: "https://avatar.vercel.sh/andre",
+  },
+  {
+    name: "Melissa P.",
+    username: "@melissap",
+    body: "Setup was way easier than I expected. We were live in the same afternoon. Support was there the whole time.",
+    img: "https://avatar.vercel.sh/melissa",
   },
 ];
 
-const firstRow = reviews.slice(0, reviews.length / 2);
-const secondRow = reviews.slice(reviews.length / 2);
+const firstRow = reviews.slice(0, Math.ceil(reviews.length / 2));
+const secondRow = reviews.slice(Math.ceil(reviews.length / 2));
 
 const ReviewCard = ({
   img,
@@ -57,7 +69,7 @@ const ReviewCard = ({
   return (
     <figure
       className={cn(
-        "relative w-64 cursor-pointer overflow-hidden rounded-xl border p-4",
+        "relative w-72 cursor-pointer overflow-hidden rounded-xl border p-4",
         // light styles
         "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
         // dark styles
@@ -81,12 +93,12 @@ const ReviewCard = ({
 const Comments = () => {
   return (
     <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-background py-4 sm:py-20 md:py-20 xl:py-20">
-      <Marquee pauseOnHover className="[--duration:20s]">
+      <Marquee pauseOnHover className="[--duration:25s]">
         {firstRow.map((review) => (
           <ReviewCard key={review.username} {...review} />
         ))}
       </Marquee>
-      <Marquee reverse pauseOnHover className="[--duration:20s]">
+      <Marquee reverse pauseOnHover className="[--duration:25s]">
         {secondRow.map((review) => (
           <ReviewCard key={review.username} {...review} />
         ))}
