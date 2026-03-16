@@ -13,7 +13,7 @@ import { ColourfulText } from "@saasfly/ui/colorful-text";
 import * as Icons from "@saasfly/ui/icons";
 
 import type { Locale } from "~/config/i18n-config";
-import {VideoScroll} from "~/components/video-scroll";
+
 
 const people = [
   {
@@ -116,7 +116,7 @@ export default async function IndexPage({
         </div>
       </section>
 
-      <section id="features" className="container mt-8 md:mt-[-180px] xl:mt-[-180px]">
+      <section id="features" className="container mt-16 pt-8">
         <FeaturesGrid dict={dict.marketing.features_grid}/>
       </section>
 
@@ -134,9 +134,7 @@ export default async function IndexPage({
         </div>
       </section>
 
-      <section className="container pt-8">
-        <VideoScroll dict={dict.marketing.video}/>
-      </section>
+
 
       <section className="w-full px-8 pt-10 sm:px-0 sm:pt-24 md:px-0 md:pt-24 xl:px-0 xl:pt-24">
         <div className="flex h-full w-full flex-col items-center pb-[100px] pt-10">

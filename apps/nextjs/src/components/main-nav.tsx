@@ -30,12 +30,12 @@ export function MainNav({ items, children, params: { lang }, marketing }: MainNa
     <div className="flex gap-6 md:gap-10">
       <div className="flex items-center">
         <Link href={`/${lang}`} className="hidden items-center space-x-2 md:flex">
-          <div className="text-3xl">Saasfly</div>
+          <div className="text-3xl font-bold tracking-tight">SEFARI</div>
         </Link>
 
-        <Link href="https://docs.saasfly.io" target="_blank" className="ml-4 hidden md:flex lg:flex xl:flex">
+        <Link href="https://console.sefari.io" target="_blank" className="ml-4 hidden md:flex lg:flex xl:flex">
           <DocumentGuide>
-            {typeof marketing?.introducing === "string" ? marketing?.introducing : "Introducing Saasfly"}
+            {typeof marketing?.introducing === "string" ? marketing?.introducing : "Introducing SEFARI Console"}
           </DocumentGuide>
         </Link>
       </div>
