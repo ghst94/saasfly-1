@@ -19,41 +19,23 @@ import {VideoScroll} from "~/components/video-scroll";
 const people = [
   {
     id: 1,
-    name: "tianzx",
-    designation: "CEO at Nextify",
-    image: "https://avatars.githubusercontent.com/u/10096899",
-    link: "https://x.com/nextify2024",
+    name: "Sefari Team",
+    designation: "Cannabis Retail Experts",
+    image: "https://ui-avatars.com/api/?name=Sefari&background=22c55e&color=fff&size=128",
+    link: "https://console.sefari.io",
   },
   {
     id: 2,
-    name: "jackc3",
-    designation: "Co-founder at Nextify",
-    image: "https://avatars.githubusercontent.com/u/10334353",
-    link: "https://x.com/BingxunYao",
+    name: "Support",
+    designation: "24/7 Operator Support",
+    image: "https://ui-avatars.com/api/?name=Support&background=16a34a&color=fff&size=128",
+    link: "https://console.sefari.io",
   },
   {
     id: 3,
-    name: "imesong",
-    designation: "Contributor",
-    image: "https://avatars.githubusercontent.com/u/3849293",
-  },
-  {
-    id: 4,
-    name: "ziveen",
-    designation: "Contributor",
-    image: "https://avatars.githubusercontent.com/u/22560152",
-  },
-  {
-    id: 5,
-    name: "Zenuncl",
-    designation: "Independent Software Developer",
-    image: "https://avatars.githubusercontent.com/u/3316062",
-  },
-  {
-    id: 6,
-    name: "Innei",
-    designation: "Indie Developer",
-    image: "https://avatars.githubusercontent.com/u/41265413",
+    name: "Compliance",
+    designation: "Regulatory Specialists",
+    image: "https://ui-avatars.com/api/?name=Compliance&background=15803d&color=fff&size=128",
   },
 ];
 
@@ -76,8 +58,8 @@ export default async function IndexPage({
                 <div className="mt-20">
                   <div
                     className="mb-6 max-w-4xl text-left text-4xl font-semibold dark:text-zinc-100 md:text-5xl xl:text-5xl md:leading-[4rem] xl:leading-[4rem]">
-                    {dict.marketing.title || "Ship your apps to the world easier with "}
-                    <ColourfulText text="Saasfly"/>
+                    {dict.marketing.title || "Run your dispensary smarter with "}
+                    <ColourfulText text="Sefari"/>
                   </div>
                 </div>
 
@@ -89,9 +71,9 @@ export default async function IndexPage({
 
                 <div
                   className="mb-4 mt-6 flex w-full flex-col justify-center space-y-4 sm:flex-row sm:justify-start sm:space-x-8 sm:space-y-0 z-10">
-                  <Link href="https://github.com/saasfly/saasfly" target="_blank">
+                  <Link href="https://console.sefari.io" target="_blank">
                     <Button
-                      className="bg-blue-600 hover:bg-blue-500 text-white rounded-full text-lg px-6 h-12 font-medium">
+                      className="bg-green-700 hover:bg-green-600 text-white rounded-full text-lg px-6 h-12 font-medium">
                       {dict.marketing.get_started}
                       <Icons.ArrowRight className="h-5 w-5"/>
                     </Button>
@@ -106,13 +88,13 @@ export default async function IndexPage({
                   </div>
                   <div className="flex flex-col items-center justify-start ml-8">
                     <div className="w-[340px]">
-                      <span className="font-semibold">9 </span>
+                      <span className="font-semibold">500+ </span>
                       <span className="text-neutral-500 dark:text-neutral-400">{dict.marketing.contributors.contributors_desc}</span>
                     </div>
                     <div className="w-[340px]">
                       <span
                         className="text-neutral-500 dark:text-neutral-400">{dict.marketing.contributors.developers_first}</span>
-                      <ColourfulText text="2000"/>
+                      <ColourfulText text="10,000"/>
                       <span
                         className="text-neutral-500 dark:text-neutral-400">{dict.marketing.contributors.developers_second}</span>
                     </div>
@@ -137,21 +119,12 @@ export default async function IndexPage({
       <section className="container pt-24">
         <div className="flex flex-col justify-center items-center pt-10">
           <div className="text-lg text-neutral-500 dark:text-neutral-400">{dict.marketing.sponsor.title}</div>
-          <div className="mt-4 flex items-center gap-4">
-            <Link href="https://go.clerk.com/uKDp7Au" target="_blank">
-              <Image src="/images/clerk.png" width="48" height="48" alt="twillot"/>
-            </Link>
-            <Link href="https://www.twillot.com/" target="_blank">
-              <Image src="https://www.twillot.com/logo-128.png" width="48" height="48" alt="twillot"/>
-            </Link>
-            <Link href="https://www.setupyourpay.com/" target="_blank">
-              <Image src="https://www.setupyourpay.com/logo.png" width="48" height="48" alt="setupyourpay" />
-            </Link>
-            <Link href="https://opencollective.com/saasfly" target="_blank">
-              <div className="flex items-center gap-2 px-4 py-2 rounded-xl border-2 border-dashed border-neutral-300 dark:border-neutral-700 hover:bg-accent dark:hover:bg-neutral-800/30">
-                <Icons.Heart className="w-5 h-5 fill-pink-600 text-pink-600 dark:fill-pink-700 dark:text-pink-700" />
-                <span className="text-sm font-medium text-neutral-500 dark:text-neutral-200">{dict.marketing.sponsor.donate || ''}</span>
-              </div>
+          <div className="mt-8">
+            <Link href="https://console.sefari.io" target="_blank">
+              <Button className="bg-green-700 hover:bg-green-600 text-white rounded-full text-lg px-8 h-12 font-medium">
+                {dict.marketing.sponsor.donate}
+                <Icons.ArrowRight className="h-5 w-5 ml-2"/>
+              </Button>
             </Link>
           </div>
         </div>

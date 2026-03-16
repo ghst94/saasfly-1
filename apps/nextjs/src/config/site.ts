@@ -1,9 +1,10 @@
 export const siteConfig = {
-  name: "Saasfly",
-  description: "We provide an easier way to build saas service in production",
-  url: "https://github.com/saasfly/saasfly",
+  name: "Sefari",
+  description: "The all-in-one cannabis retail operating system. Manage your dispensary, inventory, compliance, and customer experience from one powerful console.",
+  url: "https://console.sefari.io",
   ogImage: "",
   links: {
-    github: "https://github.com/saasfly/saasfly",
+    twitter: "https://twitter.com/sefario",
+    github: "https://github.com/sefari-io",
   },
 };

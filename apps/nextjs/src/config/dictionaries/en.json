@@ -1,79 +1,79 @@
 {
   "price": {
-    "title": "Cheap, transparent prices!",
+    "title": "Simple, transparent pricing",
     "pricing": "Pricing",
-    "slogan": "Start at full speed !",
+    "slogan": "Scale with your dispensary!",
     "monthly_bill": "Monthly Billing",
     "annual_bill": "Annual Billing",
     "annual_info": "will be charged when annual",
     "monthly_info": "when charged monthly",
     "mo": "/mo",
-    "contact": "for to contact our support team.",
+    "contact": "contact our support team.",
     "contact_2": "You can test the subscriptions and won&apos;t be charged.",
     "faq": "Frequently Asked Questions",
     "faq_detail": "Explore our comprehensive FAQ to find quick answers to common inquiries. If you need further assistance, don&apos;t hesitate to contact us for personalized help.",
     "signup": "Sign up",
     "upgrade": "Upgrade",
     "manage_subscription": "Manage Subscription",
-    "go_to_dashboard": "Go to dashboard",
+    "go_to_dashboard": "Go to Console",
     "": ""
   },
   "marketing": {
-    "introducing": "Introducing Saasfly",
-    "title": "Ship your apps to the world easier with ",
-    "sub_title": "An easy-to-use and enterprise-grade Next.js boilerplate. Your complete All-in-One solution for building SaaS services.",
-    "get_started": "Get Started",
-    "view_on_github": "View on GitHub",
-    "explore_product": "Explore Product",
+    "introducing": "Introducing Sefari Console",
+    "title": "Run your dispensary smarter with ",
+    "sub_title": "The all-in-one cannabis retail operating system. Manage inventory, compliance, orders, and customer experience — all from one powerful console.",
+    "get_started": "Open Console",
+    "view_on_github": "Learn More",
+    "explore_product": "Explore Features",
     "features": "Features",
-    "sub_features": "Cloud-native: Simplifying technology and reducing costs for startups.",
-    "k8s_features": "Fast, simple development",
-    "devops_features": "Easy application deployment",
-    "price_features": "Economically efficient for production environments.",
+    "sub_features": "Built for cannabis retail: compliance-ready, fast, and deeply integrated.",
+    "k8s_features": "Real-time inventory & POS",
+    "devops_features": "Automated compliance reporting",
+    "price_features": "Affordable plans for every dispensary size.",
     "main_nav_features": "Features",
     "main_nav_pricing": "Pricing",
     "main_nav_products": "Products",
     "main_nav_blog": "Blog",
-    "main_nav_documentation": "Documentation",
+    "main_nav_documentation": "Docs",
     "login": "Login",
     "signup": "Sign up",
     "": "",
     "contributors": {
-      "contributors_desc": "contributors made Saasfly stronger",
-      "developers_first": "Help more than ",
-      "developers_second": " developers"
+      "contributors_desc": "dispensaries trust Sefari",
+      "developers_first": "Powering more than ",
+      "developers_second": " cannabis retailers"
     },
     "right_side": {
-      "deploy_on_vercel_title": "Deploy on Vercel",
-      "deploy_on_vercel_desc": "Get started in seconds, see results instantly.",
-      "ship_on_cloudflare_title": "Ship on Cloudflare",
-      "ship_on_cloudflare_desc": "Grow your business with our Cloudflare-powered platform.",
-      "showcase_title": "Best Practice & Showcase",
-      "showcase_desc": "See what people are building and chat with them. And show off your apps to the world."
+      "deploy_on_vercel_title": "Instant Setup",
+      "deploy_on_vercel_desc": "Get your dispensary live in minutes, not months.",
+      "ship_on_cloudflare_title": "Always Online",
+      "ship_on_cloudflare_desc": "Enterprise-grade uptime so your store never goes dark.",
+      "showcase_title": "Built for Compliance",
+      "showcase_desc": "State-by-state compliance tracking, automated reports, and audit-ready records — all built in."
     },
     "features_grid": {
-      "monorepo_title": "Monorepo",
-      "monorepo_desc": "Manage multiple projects in a unified way to make code sharing easier and collaboration more efficient.",
-      "i18n_title": "i18n",
-      "i18n_desc": "Multilingual support made easy. Give your users a better experience and expand your business globally.",
-      "payments_title": "Global Payments",
-      "payments_desc": "Expand your business globally with our secure, convenient, and efficient payment platform.",
-      "nextauth_title": "NextAuth",
-      "nextauth_desc": "Empower your app with secure and seamless authentication, creating a frictionless login experience."
+      "monorepo_title": "Unified Dashboard",
+      "monorepo_desc": "Manage every location, register, and employee from a single, powerful console.",
+      "i18n_title": "Multi-Location",
+      "i18n_desc": "Scale effortlessly across multiple storefronts with centralized control and location-level customization.",
+      "payments_title": "Integrated Payments",
+      "payments_desc": "Accept cash, debit, and compliant cashless payments with built-in reconciliation and reporting.",
+      "nextauth_title": "Secure & Compliant",
+      "nextauth_desc": "Role-based access, full audit trails, and state compliance integrations keep you protected and inspection-ready."
     },
     "sponsor": {
-      "title": "Loved by our Sponsors",
-      "donate": "Buy us a coffee, Your Brand here"
+      "title": "Trusted by cannabis retailers",
+      "donate": "Become a partner"
     },
     "video": {
-      "first_text": "Watch a Video, then",
-      "second_text1": "build your App in ",
+      "first_text": "See Sefari in action, then",
+      "second_text1": "launch your console in ",
       "second_text2": "",
-      "time_text": "1 hour"
+      "time_text": "minutes"
     },
     "people_comment": {
-      "title": "What People Are Saying",
-      "desc": "Don’t just take our word for it. Here’s what real people are saying about Saasfly."
+      "title": "What Operators Are Saying",
+      "desc": "Don't just take our word for it. Here's what real dispensary operators say about Sefari."
     }
   },
   "login": {
@@ -89,36 +89,36 @@
     "": ""
   },
   "common": {
-    "copyright": "Copyright © ${currentYear} Nextify Limited. All rights reserved.",
+    "copyright": "Copyright © ${currentYear} Sefari. All rights reserved.",
     "dashboard": {
       "main_nav_documentation": "Documentation",
       "main_nav_support": "Support",
-      "sidebar_nav_clusters": "Clusters",
+      "sidebar_nav_clusters": "Locations",
       "sidebar_nav_billing": "Billing",
       "sidebar_nav_settings": "Settings",
-      "title_text": "Create and manage clusters."
+      "title_text": "Manage your locations."
     },
     "": ""
   },
   "business": {
     "k8s": {
-      "new_cluster": "New Cluster",
-      "no_cluster_title": "No clusters created",
-      "no_cluster_content": "You don&apos;t have any clusters yet. Start creating cluster. ",
+      "new_cluster": "New Location",
+      "no_cluster_title": "No locations added",
+      "no_cluster_content": "You don&apos;t have any locations yet. Start by adding your first dispensary. ",
       "": ""
     },
     "billing": {
       "billing": "Billing",
       "content": "Manage your subscription and billing details",
       "noSubscription": "You are not subscribed to any plan. ",
-      "subscriptionInfo": "You are currently on the <strong>{plan}</strong> plan.Your subscription will renew on <strong>{date}</strong>.",
+      "subscriptionInfo": "You are currently on the <strong>{plan}</strong> plan. Your subscription will renew on <strong>{date}</strong>.",
       "manage_subscription": "Manage Subscription",
       "upgrade": "upgrade",
       "": ""
     }
   },
   "dropdown": {
-    "dashboard": "Dashboard",
+    "dashboard": "Console",
     "billing": "Billing",
     "settings": "Settings",
     "sign_out": "Sign out",

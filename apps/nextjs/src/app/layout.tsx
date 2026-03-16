@@ -41,20 +41,20 @@ export const metadata = {
   },
   description: siteConfig.description,
   keywords: [
-    "Next.js",
-    "Shadcn ui",
-    "Sass",
-    "Fast ",
-    "Simple ",
-    "Easy",
-    "Cloud Native",
+    "cannabis retail",
+    "dispensary management",
+    "cannabis POS",
+    "cannabis compliance",
+    "dispensary software",
+    "cannabis inventory",
+    "Sefari",
   ],
   authors: [
     {
-      name: "saasfly",
+      name: "Sefari",
     },
   ],
-  creator: "Saasfly",
+  creator: "Sefari",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -68,7 +68,7 @@ export const metadata = {
     // shortcut: "/favicon-16x16.png",
     apple: "/apple-touch-icon.png",
   },
-  metadataBase: new URL("https://show.saasfly.io/"),
+  metadataBase: new URL("https://console.sefari.io/"),
   // manifest: `${siteConfig.url}/site.webmanifest`,
 };
 

@@ -13,8 +13,8 @@ export const getMarketingConfig = async ({
   return {
     mainNav: [
       {
-        title: "Libra AI",
-        href: "https://libra.dev/",
+        title: "Console",
+        href: "https://console.sefari.io",
       },
       {
         title: dict.marketing.main_nav_features,
