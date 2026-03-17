@@ -1,0 +1,5 @@
+{
+  "devsense.phptools.enabled": false,
+  "php.validate.enable": false,
+  "php.suggest.basic": false
+}
