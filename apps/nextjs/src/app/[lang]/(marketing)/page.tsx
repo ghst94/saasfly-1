@@ -5,6 +5,7 @@ import { getDictionary } from "~/lib/get-dictionary";
 import { Comments } from "~/components/comments";
 import { FeaturesGrid } from "~/components/features-grid";
 import { RightsideMarketing } from "~/components/rightside-marketing";
+import { SolutionStepper } from "~/components/solution-stepper";
 
 import { AnimatedTooltip } from "@saasfly/ui/animated-tooltip";
 import { BackgroundLines } from "@saasfly/ui/background-lines";
@@ -115,6 +116,8 @@ export default async function IndexPage({
           </div>
         </div>
       </section>
+
+      <SolutionStepper dict={dict.marketing.solution_stepper}/>
 
       <section id="features" className="container mt-16 pt-8">
         <FeaturesGrid dict={dict.marketing.features_grid}/>

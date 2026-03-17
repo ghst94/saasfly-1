@@ -71,6 +71,28 @@
       "second_text2": " 안에 앱을 만드세요",
       "time_text": "1 시간"
     },
+    "solution_stepper": {
+      "heading": "A complete operations platform",
+      "sub_heading": "SEFARI's end-to-end route optimization, dispatch, communication, and analytics platform handles logistics complexity so you can focus on your business.",
+      "cta_text": "Explore all features",
+      "step_1_title": "Streamline Operations",
+      "step_1_bullet_1": "Advanced route optimization",
+      "step_1_bullet_2": "AI-based automated dispatch and ETAs",
+      "step_1_bullet_3": "Real-time fleet tracking and powerful analytics",
+      "step_2_title": "Delight Customers",
+      "step_2_bullet_1": "Automatic SMS notifications",
+      "step_2_bullet_2": "Accurate ETAs & real-time driver tracking",
+      "step_2_bullet_3": "Proof-of-delivery and feedback collection",
+      "step_3_title": "Integrate Everything",
+      "step_3_bullet_1": "Developer-friendly REST API",
+      "step_3_bullet_2": "Webhooks and real-time sockets",
+      "step_3_bullet_3": "Connect OMS, WMS, and ecommerce platforms",
+      "step_4_title": "Enterprise Grade",
+      "step_4_bullet_1": "SOC2 compliant infrastructure",
+      "step_4_bullet_2": "99.9% uptime SLA",
+      "step_4_bullet_3": "Global scale with regional data centers",
+      "learn_more": "Learn more"
+    },
     "people_comment": {
       "title": "사람들의 반응을 살펴보세요",
       "desc": "저희 말만 믿지 마세요. 실제 사용자들이 Saasfly에 대해 어떻게 말하는지 확인해 보세요."
