@@ -8,7 +8,7 @@ import { env } from "@saasfly/auth/env.mjs";
 
 const noNeedProcessRoute = [".*\\.png", ".*\\.jpg", ".*\\.opengraph-image.png"];
 
-const noRedirectRoute = ["/api(.*)", "/trpc(.*)", "/admin"];
+const noRedirectRoute = ["/api(.*)", "/trpc(.*)", "/admin", "/track(.*)"];
 
 export const isPublicRoute = createRouteMatcher([
   new RegExp("/(\\w{2}/)?signin(.*)"),
@@ -18,6 +18,7 @@ export const isPublicRoute = createRouteMatcher([
   new RegExp("/(\\w{2}/)?blog(.*)"),
   new RegExp("/(\\w{2}/)?pricing(.*)"),
   new RegExp("^/\\w{2}$"), // root with locale
+  new RegExp("^/track(.*)"), // public tracking page
 ])
 
 export function getLocale(request: NextRequest): string | undefined {
@@ -50,7 +51,8 @@ export const middleware = clerkMiddleware(async (auth, req: NextRequest) => {
   }
 
   const isWebhooksRoute = req.nextUrl.pathname.startsWith("/api/webhooks/");
-  if (isWebhooksRoute) {
+  const isTrackApiRoute = req.nextUrl.pathname.startsWith("/api/track");
+  if (isWebhooksRoute || isTrackApiRoute) {
     return NextResponse.next();
   }
   const pathname = req.nextUrl.pathname;
