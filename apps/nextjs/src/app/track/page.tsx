@@ -178,7 +178,7 @@ function TrackPageInner() {
     return (
       <div className={styles.lookupPage}>
         <div className={styles.lookupCard}>
-          <div className={styles.lookupLogo}>SEFARI</div>
+          <img src="/sefari-logo.svg" alt="SEFARI" className={styles.lookupLogo} style={{width:56,height:56,objectFit:"contain",}} />
           <div className={styles.lookupSubtitle}>Track your delivery in real-time</div>
           <form onSubmit={handleSubmit}>
             <input
@@ -234,7 +234,7 @@ function TrackPageInner() {
     return (
       <div className={styles.lookupPage}>
         <div className={styles.lookupCard}>
-          <div className={styles.lookupLogo}>SEFARI</div>
+          <img src="/sefari-logo.svg" alt="SEFARI" className={styles.lookupLogo} style={{width:56,height:56,objectFit:"contain",}} />
           <div className={styles.expiredIcon}>
             <svg width="48" height="48" viewBox="0 0 512 512" fill="currentColor">
               <path d="M336 352c97.2 0 176-78.8 176-176S433.2 0 336 0S160 78.8 160 176c0 18.7 2.9 36.8 8.3 53.7L7 391c-4.5 4.5-7 10.6-7 17v80c0 13.3 10.7 24 24 24h80c13.3 0 24-10.7 24-24V448h40c13.3 0 24-10.7 24-24V384h40c6.4 0 12.5-2.5 17-7l33.3-33.3c16.9 5.4 35 8.3 53.7 8.3zm40-176c-22.1 0-40-17.9-40-40s17.9-40 40-40s40 17.9 40 40s-17.9 40-40 40z"/>
@@ -258,7 +258,7 @@ function TrackPageInner() {
     return (
       <div className={styles.lookupPage}>
         <div className={styles.lookupCard}>
-          <div className={styles.lookupLogo}>SEFARI</div>
+          <img src="/sefari-logo.svg" alt="SEFARI" className={styles.lookupLogo} style={{width:56,height:56,objectFit:"contain",}} />
           <div className={styles.pendingIcon}>
             <svg width="48" height="48" viewBox="0 0 512 512" fill="currentColor">
               <path d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120l0 136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.5 33.3-6.5s4.5-25.9-6.5-33.3L280 243.2 280 120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/>
@@ -295,7 +295,7 @@ function TrackPageInner() {
       {/* Header */}
       <header className={styles.header}>
         <div className={styles.headerBrand}>
-          <div className={styles.headerLogo}>SEFARI</div>
+          <img src="/sefari-logo.svg" alt="SEFARI" className={styles.headerLogo} style={{width:32,height:32,objectFit:"contain",}} />
           <div className={styles.headerOrder}>
             <span>Order</span>
             <span className={styles.headerOrderId}>{trackingNum}</span>
@@ -466,7 +466,7 @@ export default function TrackPage() {
     <Suspense fallback={
       <div className={styles.lookupPage}>
         <div className={styles.lookupCard}>
-          <div className={styles.lookupLogo}>SEFARI</div>
+          <img src="/sefari-logo.svg" alt="SEFARI" className={styles.lookupLogo} style={{width:56,height:56,objectFit:"contain",}} />
           <div className={styles.lookupSubtitle}>Loading...</div>
         </div>
       </div>

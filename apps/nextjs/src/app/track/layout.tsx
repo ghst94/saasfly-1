@@ -3,7 +3,15 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Track Your Order | SEFARI",
   description: "Track your SEFARI delivery in real-time with live driver tracking and estimated arrival times.",
+  icons: {
+    icon: [
+      { url: "/sefari-logo.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico" },
+    ],
+    apple: "/sefari-logo.svg",
+  },
 };
+
 
 export default function TrackLayout({
   children,

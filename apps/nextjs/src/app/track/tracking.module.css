@@ -35,13 +35,15 @@
 }
 
 .headerLogo {
-  font-size: 1.25rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
-  background: linear-gradient(135deg, #22c55e, #4ade80);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  display: flex;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+}
+.headerLogo img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
 }
 
 .headerOrder {
@@ -559,14 +561,17 @@
 }
 
 .lookupLogo {
-  font-size: 1.75rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
-  background: linear-gradient(135deg, #22c55e, #4ade80);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 1rem;
+}
+.lookupLogo img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
 }
 
 .lookupSubtitle {
