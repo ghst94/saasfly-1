@@ -697,3 +697,60 @@
   .progressSection { flex-direction: column; text-align: center; }
   .etaBlock { text-align: center; }
 }
+
+/* ===== Expired / Pending State Screens ===== */
+.expiredIcon,
+.pendingIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  margin: 0 auto 1.5rem;
+}
+
+.expiredIcon {
+  background: rgba(239, 68, 68, 0.12);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  color: #ef4444;
+}
+
+.pendingIcon {
+  background: rgba(34, 197, 94, 0.12);
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  color: #22c55e;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.expiredTitle {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #f1f5f9;
+  text-align: center;
+  margin-bottom: 0.6rem;
+  letter-spacing: -0.01em;
+}
+
+.expiredSubtitle {
+  font-size: 0.92rem;
+  color: #94a3b8;
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.expiredOrder {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: #22c55e;
+  background: rgba(34, 197, 94, 0.08);
+  border: 1px solid rgba(34, 197, 94, 0.2);
+  border-radius: 6px;
+  padding: 0.3rem 0.75rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.03em;
+}
